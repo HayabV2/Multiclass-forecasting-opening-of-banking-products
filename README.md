@@ -97,3 +97,12 @@ python 07_stacking.py
 ## Валидация
 
 Везде используется честная **K-fold кросс-валидация** (5 фолдов, мультилейбл-стратификация через `iterstrat` для бустингов) — итоговые OOF-предсказания собраны так, что модель никогда не предсказывает на объектах, на которых обучалась. Метрика — `roc_auc_score(y_true, y_pred, average="macro")`.
+
+## Датасет
+
+https://www.kaggle.com/datasets/hatab123/data-fusion-contest-2026
+
+## Чекпоинты
+
+https://www.kaggle.com/datasets/nohimilk/checpoints
+https://www.kaggle.com/datasets/dderggft/checks
